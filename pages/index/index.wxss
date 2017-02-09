@@ -1,0 +1,61 @@
+/**index.wxss**/
+.header{
+  height:260rpx;
+  background-color: #46B800;
+  display: flex;
+  align-items: center;
+}
+.header-div{
+  width:50%;
+  color:#fff;
+  font-family: "微软雅黑";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8em;
+}
+.header-div image{
+  width:100rpx;
+  height:80rpx;
+  margin-bottom: 20rpx;
+}
+.header-state{
+  height:40rpx;
+  background-color:#46B800; 
+}
+.header-state image{
+  height:40rpx;
+  width:40rpx;
+}
+.myview{
+  margin-top: 10rpx;
+  text-align: center;
+  font-family: "黑体";
+}
+.myinput{
+  width:100%;
+  border-bottom: 1px solid #ccc;
+  padding-bottom:10rpx;
+}
+.main{
+  width:90%;
+  margin:10rpx auto;
+  margin-top:40rpx;
+}
+.remen{
+  width:90%;
+  margin:10rpx auto;
+  margin-top:30rpx;
+  color:#46B800;
+  font-family: "微软雅黑";
+  font-size: 0.8em;
+
+}
+.fenlei{
+  margin-top: 30rpx;
+}
+.mylist{
+  display: flex;
+  justify-content: space-between;
+}

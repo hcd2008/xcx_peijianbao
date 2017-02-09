@@ -1,0 +1,63 @@
+<!--index.wxml-->
+<view class="header">
+  <view class="header-div">
+      <image src="../../common/images/sousuo.png"></image>
+      <text>搜索闲置配件</text>
+  </view>
+  <view class="header-div">
+      <image src="../../common/images/shangchuan.png"></image>
+      <text>上传闲置配件</text>
+  </view>
+</view>
+<view class="header-state">
+    <view class="header-div">
+      <image src="../../common/images/state.png"></image>
+    </view>
+    <view class="header-div">
+    </view>
+</view>
+<view class="main">
+    <form bindsubmit="formSubmit" bindreset="formRest">
+        <view class="myview">
+            <input class="myinput" placeholder="填入配件名称或者编号" placeholder-style="color:#ccc;" focus/>
+        </view>
+        <view class="myview">
+            <button type="primary" form-type="submit">搜索
+            </button>
+        </view>
+    </form>
+</view>
+<view class="remen">
+    <view class="pinpai">
+        <text>热门品牌：</text>
+        <view class="mylist">
+            <navigator url="brand?id=1">卡特彼勒</navigator>
+            <navigator url="brand?id=1">三菱</navigator>
+            <navigator url="brand?id=1">沃尔沃</navigator>
+            <navigator url="brand?id=1">帕金斯</navigator>
+            <navigator url="brand?id=1">深海</navigator>
+        </view>
+        <view class="mylist">
+            <navigator url="brand?id=1">科迈</navigator>
+            <navigator url="brand?id=1">巴勒斯</navigator>
+            <navigator url="brand?id=1">众智</navigator>
+            <navigator url="brand?id=1">康明斯</navigator>
+            <navigator url="brand?id=1">伍德沃德</navigator>
+        </view>
+    </view>
+     <view class="fenlei">
+        <text>热门分类：</text>
+        <view class="mylist">
+            <navigator url="brand?id=1">调速系统</navigator>
+            <navigator url="brand?id=1">调压系统</navigator>
+            <navigator url="brand?id=1">ECU/ECM</navigator>
+            <navigator url="brand?id=1">燃油系统</navigator>
+        </view>
+        <view class="mylist">
+            <navigator url="brand?id=1">科迈</navigator>
+            <navigator url="brand?id=1">巴勒斯</navigator>
+            <navigator url="brand?id=1">众智</navigator>
+            <navigator url="brand?id=1">康明斯</navigator>
+        </view>
+    </view>
+</view>

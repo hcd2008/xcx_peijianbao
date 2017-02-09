@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/news/index",
+    "pages/order/index",
+    "pages/mine/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#46B800",
+    "navigationBarTitleText": "食品伙伴网",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "../../common/images/shouye.png",
+      "selectedIconPath": "../../common/images/shouye1.png"
+    },
+    {
+      "pagePath": "pages/news/index",
+      "text": "最新",
+      "iconPath": "../../common/images/zuixin.png",
+      "selectedIconPath": "../../common/images/zuixin1.png"
+    },
+    {
+      "pagePath": "pages/order/index",
+      "text": "订单",
+      "iconPath": "../../common/images/dingdan.png",
+      "selectedIconPath": "../../common/images/dingdan1.png"
+    },
+    {
+      "pagePath": "pages/mine/index",
+      "text": "我的",
+      "iconPath": "../../common/images/wode.png",
+      "selectedIconPath": "../../common/images/wode1.png"
+    }]
+  }
+}
